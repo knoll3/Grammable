@@ -1,24 +1,44 @@
-# README
+# Grammable
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Grammable is a Ruby on Rails application similiar to Instagram with a Test Driven approach. 
+In addtion to the usage of Ruby on Rails, this app also demonstrates the usage of:
+- Test Driven Development
+- HTML/CSS
+- Bootstrap
+- Devise
+- Amazon s3 for image storage, CarrierWave, & FogAWS
 
-Things you may want to cover:
+Visit [Grammable](https://Grammable-kyle-noll.herokuapp.com/) on Heroku.
 
-* Ruby version
+Grammable was created as part of a remote coding bootcamp called [The Firehose Project](https://thefirehoseproject.com/).
 
-* System dependencies
+## Getting Started
 
-* Configuration
+Clone the app and install the gem files
+```
+$ git clone git@github.com:knoll3/Grammable.git
+$ cd Grammable/
+$ bundle install
+```
+After this you should be good to go!
 
-* Database creation
+## Deployment
+To deploy this app into development 
+```
+$ heroku create choose-app-name
+$ git push heroku master
+```
+View app info
+```
+$ heroku apps:info
+```
+Open the app
+```
+$ heroku open
+```
 
-* Database initialization
+## Versions
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Grammable uses 
+- Ruby 2.3.4
+- Rails 5.1.6
